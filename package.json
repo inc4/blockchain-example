@@ -2,13 +2,13 @@
   "name": "blockchain-example",
   "version": "1.0.0",
   "description": "Example project with simple smart contract and front end",
-  "main": "index.js",
   "repository": "https://github.com/inc4/blockchain-example",
   "author": "Oleksiy Pyltsov <valar999@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "deploy": "hardhat run scripts/deploy.js"
+    "deploy": "hardhat run scripts/deploy.js",
+    "start": "react-scripts start"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
@@ -16,7 +16,26 @@
     "chai": "^4.2.0",
     "dotenv": "^10.0.0",
     "ethereum-waffle": "^3.0.0",
+    "hardhat": "^2.6.4",
+    "hardhat-abi-exporter": "^2.3.0"
+  },
+  "dependencies": {
     "ethers": "^5.0.0",
-    "hardhat": "^2.6.4"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^2.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
