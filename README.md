@@ -3,10 +3,6 @@
 This project demonstrates how to create simple smart contract and work with
 Metamask.
 
-```shell
-yarn install
-```
-
 To deploy smart contract:
 ```shell
 yarn deploy
